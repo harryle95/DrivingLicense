@@ -123,7 +123,7 @@ ___
 - With a fully licensed supervising driver 
 - When driving an emergency vehicle
 
-### Can P2 holders two a caravan or trailer? 
+### Can P2 holders tow a caravan or trailer? 
 
 ___
 Yes 
