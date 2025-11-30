@@ -1,9 +1,11 @@
+using src.Models;
+using src.Services;
+
 namespace src;
 
-class ConsoleApp(QuestionManager manager)
+class ConsoleApp
 {
-    private readonly QuestionManager manager = manager;
-    public void SelectMode()
+    public static void SelectMode()
     {
         string? choice;
         while (true)
@@ -12,17 +14,17 @@ class ConsoleApp(QuestionManager manager)
             choice = Console.ReadLine();
             if (choice == "A" || choice == "a")
             {
-                manager.RestartAllQuestions();
+                QuestionService.RestartAllQuestions();
                 break;
             }
             if (choice == "F" || choice == "f")
             {
-                manager.RestartCurrentSession();
+                QuestionService.RestartCurrentSession();
                 break;
             }
             if (choice == "R" || choice == "r")
             {
-                manager.RestartReviewSession();
+                QuestionService.RestartReviewSession();
                 break;
             }
             if (choice == "Q" || choice == "q")
@@ -33,12 +35,13 @@ class ConsoleApp(QuestionManager manager)
         }
     }
 
-    public void RunLoop()
+    public static void RunLoop()
     {
-        while (manager.HasNext())
+        List<QuestionGetDTO> questions = [.. QuestionService.GetQuestions()];
+        List<int> reviewIndices = [];
+        foreach (var question in questions)
         {
             Console.Clear();
-            Question question = manager.GetQuestion();
             Console.WriteLine($"Question: {question.Header}");
             Console.WriteLine(question.Body);
             Console.ReadLine();
@@ -47,24 +50,24 @@ class ConsoleApp(QuestionManager manager)
             string? key = Console.ReadLine();
             if (key == "r" || key == "R")
             {
-                manager.MarkForReview();
+                reviewIndices.Add(question.Id);
                 continue;
             }
             if (key == "q" || key == "Q")
                 Environment.Exit(0);
-
         }
+        QuestionService.MarkForReview([.. reviewIndices]);
     }
 
     public static void Start(string filePath)
     {
-        QuestionParser parser = new(filePath);
-        QuestionManager manager = new(parser.Questions);
-        ConsoleApp app = new(manager);
+        ParseService parser = new(filePath);
+        QuestionService.UpdateQuestions(parser.Questions);
+        Console.WriteLine("Finished updating questions");
         while (true)
         {
-            app.RunLoop();
-            app.SelectMode();
+            ConsoleApp.RunLoop();
+            ConsoleApp.SelectMode();
         }
     }
 }

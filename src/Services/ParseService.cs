@@ -1,6 +1,5 @@
-namespace src;
-
-using System;
+using src.Models;
+namespace src.Services;
 
 public class ValidationException : Exception
 {
@@ -16,7 +15,6 @@ public class ParseException : Exception
     public ParseException(string message, Exception innerException) : base(message, innerException) { }
 }
 
-public record Question(string Header, string Body, string Answer);
 public class QuestionBuilder
 {
     private string _header = string.Empty;
@@ -64,7 +62,7 @@ public class QuestionBuilder
     }
 }
 
-public class QuestionParser
+public class ParseService
 {
     private readonly int _numParsed = 0;
     public List<Question> Questions { get; } = [];
@@ -74,7 +72,7 @@ public class QuestionParser
     {
         return $"{_filePath}:{_lineNumber}";
     }
-    public QuestionParser(string filePath)
+    public ParseService(string filePath)
     {
         _lineNumber = -1;
         _filePath = filePath;
@@ -121,76 +119,5 @@ public class QuestionParser
         {
             throw new ParseException(GetErrorMessage(), valException);
         }
-    }
-}
-
-public class QuestionManager
-{
-    public List<Question> Questions {get;} = [];
-    private List<int> focusIndices = [];
-    private readonly HashSet<int> reviewIndices = [];
-    private int index = 0;
-
-    private void Reset()
-    {
-        reviewIndices.Clear();
-        index = 0;
-        Shuffle();
-    }
-
-    public void Shuffle()
-    {
-        Random rng = new();
-        int n = focusIndices.Count;
-        while (n > 1)
-        {
-            n--;
-            int k = rng.Next(n + 1);
-            (focusIndices[n], focusIndices[k]) = (focusIndices[k], focusIndices[n]);
-        }
-    }
-
-    public bool HasNext()
-    {
-        return index < focusIndices.Count;
-    }
-
-    public Question GetQuestion()
-    {
-        if (!HasNext())
-            throw new IndexOutOfRangeException("No more element.");
-        Question current = Questions[focusIndices[index]];
-        index++;
-        return current;
-    }
-
-    public void MarkForReview()
-    {
-        if (index == 0)
-            throw new IndexOutOfRangeException("No question has been drawn yet.");
-        reviewIndices.Add(focusIndices[index-1]);
-    }
-
-    public void RestartCurrentSession()
-    {
-        Reset();
-    }
-
-    public void RestartReviewSession()
-    {
-        focusIndices = [.. reviewIndices];
-        Reset();
-    }
-
-    public void RestartAllQuestions()
-    {
-        focusIndices = [.. Enumerable.Range(0, Questions.Count)];
-        Reset();
-    }
-
-    public QuestionManager(List<Question> questions)
-    {
-        Questions = questions;
-        RestartAllQuestions();
     }
 }
