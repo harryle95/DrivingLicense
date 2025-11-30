@@ -264,4 +264,361 @@ ___
 - Better at anticipating hazards - supervising drivers will not have to point things out as often
 - Rely less and less on suggestions from supervising driver
 
+### What can increase the risk of crashing or seriously hurt for drivers? 
+
+___
+- Driving under influence of alcohol or drugs.
+- Speeding.
+- Using mobile phones and other electronic devices. 
+- Having passengers in the car.
+- Other distractions inside or outside the car.
+- Fatigue - driving when tired.
+- Not wearing seatbells.
+- Poor vehicle maintenance.
+
+### What is the approximate increase in crash risk when BAC is 0.05 compared to when BAC is 0?
+
+___
+Double the risk 
+
+### What are the penalties for driver with a drink driving offence? 
+
+___
+
+- Licence cancelled.
+- Complete a Behavior Change Program
+- Install and use an alcohol interlock device for at least 6 months.
+
+### Can alcohol remain in your system for some time after you finish drinking? 
+
+___
+
+Yes. BAC can be > 0 the morning after drinking.
+
+### Is there any exception to driving under alcohol influence? 
+
+___
+
+No 
+
+### Is there any exception to driving when under drug influence? 
+
+___
+
+No 
+
+### Which of the following affect your driving the most? 
+
+- [ ] Taking alcohol.
+- [ ] Taking drug.
+- [ ] Mixing alcohol and drug.
+
+___
+
+Mixing alcohol and drug
+
+### Can over-the-counter medicine and other prescriptions affect your driving ability? 
+
+___ 
+
+Yes
+
+### What should you do if you need to go home after drinking? 
+
+___
+
+- Don't drive by yourself (public transport/taxi/other drivers).
+- Stay
+
+### What is the approximate percentage of crash cases where speeding is a factor? 
+
+___
+
+- 20% of fatal crashes 
+- 30% of crashes involving only 1 vehicle - i.e. driving into trees, off the road, etc.
+
+### How does speeding affect safe driving? 
+
+___
+
+- Less time to scan the road and identify hazards.
+- Less time to react/make the right decision.
+
+### Why is using mobile phone or electronic devices while driving deemed dangerous? 
+
+___
+
+- Distraction - take eyes and mind off the road.
+
+
+### Are older, more experienced drivers with full license allowed to use mobile phone or electronic devices while driving? 
+
+___ 
+No
+
+### What interactions with phone and other device are permitted for learner, p1 and p2 holders before or during driving? 
+
+___
+- Set up before driving 
+- For streaming audio music or GPS
+- If mounted correctly
+
+### What interactions with phone and other device are prohibited for learner, p1 and p2 holders before or during driving? 
+
+___
+- Cannot touch, enter text or number while driving.
+- Cannot use voice control.
+- Cannot change audio.
+- Cannot interact with text messages in any way.
+- Cannot put on the lap.
+- Cannot pass to other passenger.
+
+### What interactions with phone and other device are permitted for full license holder? 
+
+___
+- Make or receive calls using voice command
+- Must be securely mounted
+
+### What interactions with phone and other device are prohibited all drivers? 
+
+___
+- Cannot use device for messaging, entering text numbers and scrolling.
+- Cannot rest device on lap.
+- Cannot pass device to passengers.
+
+### What should you do if you need to make or receive a call? 
+
+___
+- Pull over safely and park
+- Do not stop in emergency lane - illegal.
+
+### How can fatigue affect drivers? 
+
+___
+- Fall asleep at the wheel.
+- Slow reflexes, attention, judgement.
+
+### When can fatigue happen? 
+
+___
+- Driving when usually sleeping.
+- Not enough sleep.
+- Awake for too long.
+- Drive right after waking up.
+- Drive for more than 2 hours non-stop.
+
+### Does having coffee or taking short break stop fatigue? 
+
+___
+No. The only way to stop being fatigued is to get enough sleep.
+
+### How to reduce the effect of fatigue?
+
+___
+- Don't drive at time when usually asleep.
+- Don't drive right after waking up.
+- Don't drive continuously for more than 2 hours without taking rest.
+- Ensure you don't take medicines that can cause drownsiness before or during driving. 
+- Pull over, park the car and take a short rest when you notice fatigue signs.
+
+### How to reduce the effect of fatigue on a long trip? 
+
+___
+- Get plenty of sleep before the trip.
+- Share the wheel with other drivers. 
+- Take regular breaks.
+- Avoid time when you are normally asleep.
+- Don't start a trip if you have been awake for very long or if you haven't slept for a long time. 
+
+### Are crashes more likely for a short or for a long journey?
+
+___
+Most crashes happen on short journey.
+
+### If you only need to travel a short distance, do you need to wear seatbells? 
+
+___
+Yes, as most crashes happen on short journey.
+
+### How does wearing seatbell help in a crash? 
+
+___
+- During a crash, driver and passengers without seatbells can be thrown across the window outside the car.
+- People not wearing seatbells can also be thrown against other objects inside the car - windows, windscreen, other passengers, etc.
+- Fatality rate increases over 25 times for people thrown outside the car compared to people remaining inside.
+
+### Do passengers need to wear seatbells? 
+
+___
+Yes 
+
+### What happen to drivers if passengers do not wear seatbell?
+
+___
+Fined with demerit points.
+
+### How can children under 7 yearsold wear seatbell? 
+
+___
+Use child restraint.
+
+### What happen to passenger not wearing seatbell?
+
+___
+Passengers over 16 yearsold get fined for not wearing seatbell when driving.
+
+### Can any part of passenger's body be put outside the door or window? 
+
+___
+No and it is illegal to do so. - Drivers will get fined and receive demerit points. 
+
+### What are the most important safety features in a car? 
+
+___
+- Airbags
+- Electronic Stability Control
+
+### What websites can be used to assess the safety rating of cars ?
+
+___
+- howsafeisyourcar.com.au
+- ancap.com.au
+
+### What maintenance work need to be done? 
+
+___
+- Tyre pressure and tread depth.
+- Regular maintenance by experts.
+
+### What to do when you have a type blowout when driving? 
+
+___
+- Keep a firm grip on steering wheel
+- Take foot off accelerator
+- Break gently once you feel the vehicle is under some control
+
+### What to do in an emergency stop with an Antilock Braking System? 
+
+___
+- Keep firm pressure on brake pedal
+
+### What are the strategies to reduce crash risk? 
+
+___
+- Choose when and where to drive
+- Slow down
+- Give yourself some space - leave safe margin.
+- Think ahead - don't just focus on the vehicle in front. 
+- Drive safely at night.
+- Drive safely on country roads 
+- Deal with other road users
+    
+
+### What is a safe distance margin?
+
+___
+- At least 2 seconds.
+
+### When is a more than 2 second gap recommended? 
+
+___
+- For new drivers
+- Distracting conditions
+- Poor visibility 
+- Slippery road
+- Heavy load
+- Gravel road
+
+### What is the minimum distance margin between two long vehicles (trailer > 7.5 m long)?
+
+___
+- 60 m except built-up area or on multi-lane road
+- 200 m in a road train area.
+
+### What is a build up area?
+
+___
+One with buildings next to the road or street lights.
+
+### What are the strategies to deal with other road users? 
+
+___ 
+
+- Use indicators 
+- Allow space between your car and the one in front of you
+- Control speed in a smooth manner rather than a fast stop/start manner 
+- Stay in left lane except when passing 
+- Keep intersections clear
+- Let other people merge into the traffic 
+- Change langes correctly 
+- Slow down when approaching roadwork
+
+### What to do to keep cool when driving? 
+
+___
+- Plan trip accordingly, allowing for time to get to destination
+- If running late, call ahead of time
+- Avoid driving if angry, tired or stressed
+
+### When should you flash or headlights or use the horn? 
+
+___
+Warn other drivers about a dangerous situation.
+
+### What are eco driving techniques? 
+
+___
+
+- Avoid hard or unnecessary acceleration and severe braking.
+- Decelerate smoothly by releasing the accelerator.
+- Don't take off too fast.
+- Slow down and maintain a steady speed (90km/h uses 25% less fuel than 110 km/h).
+
+### What are the impacts of alcohol on driving? 
+
+___
+- Overconfident and take risk
+- Unaware of driving impairment
+- Slower reflex
+- Poorer coordination
+- Less able to handle emergency situations
+- Less able to process information
+
+### Factors affecting BAC 
+
+___
+- Gender 
+- Body size
+- Food consumption - food slows down alcohol absorption
+- Rate of drinking - drink quickly - higher BAC 
+- Type of alcohol 
+- General health - liver problem - higher BAC 
+- Use of drug - higher BAC
+
+### What can reduce BAC level? 
+
+___
+Only time, no other factor like showering, coffee or quick nap
+
+### Must children wear seatbell? 
+
+___
+Yes 
+
+### Must pregnant women wear seatbell? 
+
+___
+Yes 
+
+### Are drivers responsible for the restraints of passengers? 
+
+___
+Yes. If passengers don't wear seatbell, driver can be fined and receive demerit points.
+
+### What are the correct seatbell use? 
+
+___
+- Over shoulder 
+- Across chest
+- Buckled on hip
 
