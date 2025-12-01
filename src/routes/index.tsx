@@ -1,39 +1,68 @@
 import { createFileRoute } from '@tanstack/react-router'
-import logo from '../logo.svg'
+
+import ReactMarkdown from 'react-markdown'
+import { useCallback, useState } from 'react'
+import type { components } from '@/lib/api/v1'
+import { $api, queryClient } from '@/lib/api'
+
+const queryOption = () => $api.queryOptions('get', '/Question')
+
+interface CardProps {
+  question: components['schemas']['QuestionGetDTO']
+  showQuestion: boolean 
+  setShowQuestion: (state: boolean)=>void
+}
+
+const Card = (props: CardProps) => {
+  const { question, showQuestion, setShowQuestion } = props
+
+  return (
+    <button
+      className="flex-col border-2 rounded-md p-6 h-[600px] w-[700px]"
+      onClick={() => setShowQuestion(!showQuestion)}
+    >
+      {showQuestion ? (
+        <>
+          <div>{question.header}</div>
+          <div>
+            <ReactMarkdown>{question.body}</ReactMarkdown>
+          </div>
+        </>
+      ) : (
+        <div>
+          <ReactMarkdown>{question.answer}</ReactMarkdown>
+        </div>
+      )}
+    </button>
+  )
+}
 
 export const Route = createFileRoute('/')({
-  component: App,
+  component: RouterComponent,
+  loader: () => queryClient.ensureQueryData(queryOption()),
 })
 
-function App() {
+function RouterComponent() {
+  const data = Route.useLoaderData()
+  const size = data.length;
+  const [index, setIndex] = useState(0);
+  const [showQuestion, setShowQuestion] = useState<boolean>(true);
+
+  const setNext = useCallback(()=>{
+    setIndex(value=>(value + 1)%size)
+    setShowQuestion(true)
+  },[size])
+  const setPrev = useCallback(()=>{
+    const prevIndex = index == 0?size-1:index-1;
+    setShowQuestion(true)
+    setIndex(prevIndex)
+  },[size])
+
   return (
-    <div className="text-center">
-      <header className="min-h-screen flex flex-col items-center justify-center bg-[#282c34] text-white text-[calc(10px+2vmin)]">
-        <img
-          src={logo}
-          className="h-[40vmin] pointer-events-none animate-[spin_20s_linear_infinite]"
-          alt="logo"
-        />
-        <p>
-          Edit <code>src/routes/index.tsx</code> and save to reload.
-        </p>
-        <a
-          className="text-[#61dafb] hover:underline"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <a
-          className="text-[#61dafb] hover:underline"
-          href="https://tanstack.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn TanStack
-        </a>
-      </header>
+    <div className="h-full w-full flex">
+      <button onClick={setPrev}>Prev</button>
+      <Card question={data[index]} showQuestion={showQuestion} setShowQuestion={setShowQuestion}/>
+      <button onClick={setNext}>Next</button>
     </div>
   )
 }
