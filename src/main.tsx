@@ -3,10 +3,14 @@ import ReactDOM from 'react-dom/client'
 import { RouterProvider, createRouter } from '@tanstack/react-router'
 
 // Import the generated route tree
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { routeTree } from './routeTree.gen'
 
 import './styles.css'
 import reportWebVitals from './reportWebVitals.ts'
+
+// Query Client
+const queryClient = new QueryClient()
 
 // Create a new router instance
 const router = createRouter({
@@ -31,7 +35,9 @@ if (rootElement && !rootElement.innerHTML) {
   const root = ReactDOM.createRoot(rootElement)
   root.render(
     <StrictMode>
+      <QueryClientProvider client={queryClient}>
       <RouterProvider router={router} />
+      </QueryClientProvider>
     </StrictMode>,
   )
 }

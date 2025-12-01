@@ -1,7 +1,8 @@
-import { createFileRoute } from '@tanstack/react-router'
+import { createFileRoute, useNavigate } from '@tanstack/react-router'
 
 import ReactMarkdown from 'react-markdown'
-import { useCallback, useState } from 'react'
+import { useEffect, useState } from 'react'
+import { ArrowLeft, ArrowRight, NotebookPen, RotateCcw, Star } from 'lucide-react'
 import type { components } from '@/lib/api/v1'
 import { $api, queryClient } from '@/lib/api'
 
@@ -9,8 +10,8 @@ const queryOption = () => $api.queryOptions('get', '/Question')
 
 interface CardProps {
   question: components['schemas']['QuestionGetDTO']
-  showQuestion: boolean 
-  setShowQuestion: (state: boolean)=>void
+  showQuestion: boolean
+  setShowQuestion: (state: boolean) => void
 }
 
 const Card = (props: CardProps) => {
@@ -23,7 +24,7 @@ const Card = (props: CardProps) => {
     >
       {showQuestion ? (
         <>
-          <div>{question.header}</div>
+          <div className="font-semibold text-lg">{question.header}</div>
           <div>
             <ReactMarkdown>{question.body}</ReactMarkdown>
           </div>
@@ -44,25 +45,88 @@ export const Route = createFileRoute('/')({
 
 function RouterComponent() {
   const data = Route.useLoaderData()
-  const size = data.length;
-  const [index, setIndex] = useState(0);
-  const [showQuestion, setShowQuestion] = useState<boolean>(true);
+  const size = data.length
+  const [index, setIndex] = useState(0)
+  const [showQuestion, setShowQuestion] = useState<boolean>(true)
 
-  const setNext = useCallback(()=>{
-    setIndex(value=>(value + 1)%size)
+  const [reviewQuestion, updateReviewQuestion] = useState<Set<number>>(()=>new Set())
+  const isReviewQuestion = reviewQuestion.has(data[index].id)
+  // Mutation
+  const navigate = useNavigate()
+  const reviewMutation = $api.useMutation("post", "/Question/Review", {
+    onSuccess: ()=>navigate({to: "/", reloadDocument: true})
+  })
+  const resetMutation = $api.useMutation("post", "/Question/Reset", {
+    onSuccess: ()=>navigate({to: "/", reloadDocument: true})
+  })
+
+  // Event handler
+  const reviewHandler = ()=>{
+    reviewMutation.mutate({body: [...reviewQuestion]})
+  }
+  const resetHandler = ()=>{
+    resetMutation.mutate({})
+  }
+  const addOrRemoveFromReview = () => {
+    updateReviewQuestion(prev=>{
+      const newSet = new Set(prev);
+      newSet.has(data[index].id) ? newSet.delete(data[index].id) : newSet.add(data[index].id)
+      return newSet;
+    })
+  }
+  const setNext = () => {
+    setIndex(value=>(value + 1) % size)
     setShowQuestion(true)
-  },[size])
-  const setPrev = useCallback(()=>{
-    const prevIndex = index == 0?size-1:index-1;
+  }
+  const setPrev = () => {
+    setIndex(value => (value == 0) ? size - 1: value - 1)
     setShowQuestion(true)
-    setIndex(prevIndex)
-  },[size])
+  }
+  const handleKeyPress = (event: KeyboardEvent) => {
+    if (event.key == 'Enter') {
+      setShowQuestion(value => !value)
+    } else if (event.key == 'ArrowLeft') {
+      setPrev()
+    } else if (event.key == 'ArrowRight') {
+      setNext()
+    }
+  }
+  // Global event listener
+  useEffect(() => {
+    window.addEventListener('keydown', handleKeyPress)
+
+    return () => {
+      window.removeEventListener('keydown', handleKeyPress)
+    }
+  }, []) // Empty dependency array
 
   return (
-    <div className="h-full w-full flex">
-      <button onClick={setPrev}>Prev</button>
-      <Card question={data[index]} showQuestion={showQuestion} setShowQuestion={setShowQuestion}/>
-      <button onClick={setNext}>Next</button>
+    <div className="flex-col gap-y-4">
+    <div className="flex gap-x-4 p-4 justify-center items-center">
+      <button className="flex gap-x-2" onClick={resetHandler}><RotateCcw/>Reset</button>
+      <button className="flex gap-x-2" onClick={reviewHandler}><NotebookPen/>Review</button>
+    </div>
+    <div className="h-full w-full flex justify-center gap-x-4 items-center">
+      <button className="p-4" onClick={setPrev}>
+        <ArrowLeft />
+      </button>
+      <div className="relative">
+        <button
+          onClick={addOrRemoveFromReview}
+          className="absolute right-5 top-5 "
+        >
+          {isReviewQuestion?<Star className="fill-yellow-300"/>:<Star/>}
+        </button>
+        <Card
+          question={data[index]}
+          showQuestion={showQuestion}
+          setShowQuestion={setShowQuestion}
+        />
+      </div>
+      <button className="p-4" onClick={setNext}>
+        <ArrowRight />
+      </button>
+    </div>
     </div>
   )
 }

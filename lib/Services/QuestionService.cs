@@ -63,7 +63,7 @@ public static class QuestionService
         });
     }
 
-    public static void MarkForReview(int[] indices)
+    public static void MarkForReview(IEnumerable<int> indices)
     {
         foreach (var index in indices)
             ReviewIndices.Add(index);

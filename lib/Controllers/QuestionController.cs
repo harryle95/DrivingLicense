@@ -22,10 +22,21 @@ public class QuestionController : ControllerBase
         return QuestionService.GetQuestions();
     }
 
+    [HttpPost("Reset")]
+    public IActionResult Reset(){
+        QuestionService.RestartAllQuestions();
+        return Ok();
+    }
+
     [HttpPost("Review")]
-    public IActionResult MarkForReview(int[] Ids)
+    public IActionResult MarkForReview(IEnumerable<int> Ids)
     {
+        if (!Ids.Any()){
+            QuestionService.RestartCurrentSession();
+            return Ok();
+        }
         QuestionService.MarkForReview(Ids);
+        QuestionService.RestartReviewSession();
         return Ok();
     }
 

@@ -490,7 +490,7 @@ ___
 - Tyre pressure and tread depth.
 - Regular maintenance by experts.
 
-### What to do when you have a type blowout when driving? 
+### What to do when you have a tyre blowout when driving? 
 
 ___
 - Keep a firm grip on steering wheel
