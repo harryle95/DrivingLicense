@@ -704,3 +704,66 @@ ___
 
 ___
 142 km/h
+
+### What does this sign tell you? 
+
+![](./assets/give_way_sign.png)
+
+___ 
+Drivers must give way to other vehicles
+
+### What does this sign tell you? 
+
+![](./assets/keep_left_sign.png)
+
+___ 
+Must keep to the left side of the road
+
+### What does this sign tell you? 
+
+![](./assets/left_turn_only_sign.png)
+
+___ 
+Can only turn left
+
+### What does this sign tell you? 
+
+![](./assets/no_entry_sign.png)
+
+___ 
+No entry
+
+### What does this sign tell you? 
+
+![](./assets/no_left_turn_sign.png)
+
+___ 
+Cannot turn left
+
+### What does this sign tell you? 
+
+![](./assets/pedestrian_crossing_sign.png)
+
+___ 
+Pedestrian crossing 
+
+### What does this sign tell you? 
+
+![](./assets/safety_zone_sign.png)
+
+___ 
+Safety zone
+
+### What does this sign tell you? 
+
+![](./assets/stop_sign.png)
+
+___ 
+Drivers must stop
+
+### What does this sign tell you? 
+
+![](./assets/stop_sign_handhell.png)
+
+___ 
+Drivers must stop
