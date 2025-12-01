@@ -103,6 +103,7 @@ function RouterComponent() {
   return (
     <div className="flex-col gap-y-4">
     <div className="flex gap-x-4 p-4 justify-center items-center">
+      <div>{index+1}/{size}</div>
       <button className="flex gap-x-2" onClick={resetHandler}><RotateCcw/>Reset</button>
       <button className="flex gap-x-2" onClick={reviewHandler}><NotebookPen/>Review</button>
     </div>

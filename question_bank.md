@@ -264,7 +264,7 @@ ___
 - Better at anticipating hazards - supervising drivers will not have to point things out as often
 - Rely less and less on suggestions from supervising driver
 
-### What can increase the risk of crashing or seriously hurt for drivers? 
+### What can increase the risk of crashing or seriously hurt for drivers (8 points)? 
 
 ___
 - Driving under influence of alcohol or drugs.
