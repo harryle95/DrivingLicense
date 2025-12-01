@@ -622,3 +622,85 @@ ___
 - Across chest
 - Buckled on hip
 
+### How should pregnant women wear seatbell? 
+
+___
+Lap part across hip and below the belly 
+
+### How should animals be transported on a car? 
+
+___
+- Must not be on your lap 
+- Tethered in a way to prevent them from falling off 
+
+### What does speed limit signs tell your? 
+
+- [ ] Maximum permitted speed
+- [ ] Minimum permitted speed 
+
+___ 
+Maximum permitted speed in good conditions 
+
+### What is the speed limit of build up areas without any sign?
+
+- [ ] 40 km/h
+- [ ] 50 km/h
+- [ ] 60 km/h
+___
+50 km/h unless the sign says otherwise
+
+### What is the speed limit outside build up areas and on freeways without signs? 
+
+- [ ] 60 km/h
+- [ ] 90 km/h
+- [ ] 100 km/h
+
+___
+100 km/h unless the sign says otherwise 
+
+### What does this sign tell you? 
+
+![](./assets/shared_zone_sign.png)
+
+___
+- Speed limit is 10 km/h
+- Must give way to pedestrian
+
+### What does this sign tell you?
+
+![](./assets/permanent_speed_limit.png)
+
+___
+- Permanent speed limit 
+- Maximum 40 km/h
+
+### What does this sign tell you?
+
+![](./assets/timebased_speed_limit.png)
+___
+- Time based speed limit 
+- Speed limit of 40 km/h applies at the hours on sign
+
+### What does this sign tell you? 
+
+![](./assets/timebased_speed_limit_electronic.png)
+
+___
+- Time based speed limit 
+- Electronic 
+- Speed limit of 60 km/h applies until changed.
+
+### What happen to stopping distance if your speed is doubled? 
+
+___
+When speed doubles, stopping distance increases by 4 times
+
+### What is the stopping distance when you are travelling at 60km/h?
+
+___
+67 km/h
+
+### What is the stopping distance when you are travelling at 100 km/h? 
+
+___
+142 km/h
