@@ -2086,12 +2086,6 @@ For working vehicles near the site
 ___
 Vehicles parked here will be towed in the alloted period
 
-### What does the sign say? 
-
-![](./assets/tow_away_sign_another.png)
-
-___
-Vehicles parked here will be towed in the alloted period
 
 ### What is double parking? 
 

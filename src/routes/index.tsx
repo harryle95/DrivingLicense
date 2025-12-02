@@ -29,17 +29,21 @@ const Card = (props: CardProps) => {
       onClick={() => setShowQuestion(!showQuestion)}
     >
       {showQuestion ? (
-        <>
+        <div className="overflow-auto max-h-full flex-col justify-center items-center">
           <div className="font-semibold text-lg">{question.header}</div>
           <div className="flex justify-center items-center">
             <div className="flex-col justify-center items-center p-4">
               <ReactMarkdown>{question.body}</ReactMarkdown>
             </div>
           </div>
-        </>
+        </div>
       ) : (
         <div>
-          <ReactMarkdown>{question.answer}</ReactMarkdown>
+          <div className="flex justify-center items-center">
+            <div className="flex-col justify-center items-center p-4">
+              <ReactMarkdown>{question.answer}</ReactMarkdown>
+            </div>
+          </div>
         </div>
       )}
     </button>
