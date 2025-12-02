@@ -2129,3 +2129,110 @@ ___
 ___
 
 3 m 
+
+### You park at the side of the road. You leave three metres of the road clear. Which road lines are you allowed to park opposite?
+
+- [ ] A continuous yellow line at the side of the road 
+- [ ] Continuous double white lines at the center of the road 
+- [ ] A broken white line in the center of the road 
+
+___
+
+A broken white line 
+
+### Can you park opposite to continuous double white lines with 3 m clearance? 
+
+___ 
+
+No
+
+### Who must you give way to and why? 
+
+![](./assets/give_way_situation_19.png)
+
+___
+
+- Give way to C due to give way sign 
+- Do not need to give way to B since B also faces give way sign
+
+### Who has right of way and why?
+
+![](./assets/give_way_situation_20.png)
+
+___
+
+Car B since A is changing lane
+
+### You are driving in this position when the tram slows down and stops at a tram stop. What should you do?
+
+![](./assets/tram_stop_situation.png)
+
+___
+Stop 
+
+### Who can overtake in this situation? 
+
+![](./assets/overtake_situation.png)
+
+___
+
+A
+
+### You are driving vehicle A and want to turn right. Vehicle B is indicating left. What should you do?
+
+![](./assets/situation_1.png)
+
+___
+
+Wait to see what B does. B might have signaled too early
+
+### You are driving vehicle A. When can you complete a hook turn?
+
+![](./assets/situation_2.png)
+
+___
+
+When the traffic light of the turning road turns green
+
+### You are driving vehicle A. Which path must your vehicle take?
+
+![](./assets/situation_3.png)
+
+___
+
+Path I
+
+### What is the correct give way sequence of all vehicles? 
+
+![](./assets/give_way_situation_21.png)
+
+___
+
+- B, A, C
+- B > A since B is on the right of A 
+- A > C since A is travelling from continuing road, C from ending road.
+
+### In which of these diagrams does vehicle A have to give way to vehicle B?
+
+![](./assets/give_way_situation_22.png)
+
+___
+
+II only. In I, A is performing a zip merge and has priority (ahead of B). In II, A is performing a U turn and must give way to B.
+
+### You are driving vehicle A. You must give way to
+
+![](./assets/give_way_situation_23.png)
+
+___
+Both pedestrians since you are driving from drive way.
+
+
+### Which vehicle must give way to a pedestrian?
+
+![](./assets/give_way_situation_24.png)
+
+___
+
+Both vehicles
+
