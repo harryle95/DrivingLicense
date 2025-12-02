@@ -1365,6 +1365,8 @@ ___
 - Stop at the rear of the tram to give way to pedestrians
 - Must not proceed while the doors are stil open 
 
+![](./assets/tram_stop.png)
+
 ### Who should give way and why? 
 
 ![](./assets/slip_lane.png)
@@ -1725,4 +1727,411 @@ Close to the lane you are turning to
 ### When turning from a two way to a one way road, which lane should you take?
 
 ___
-The lane cloest to you
+The lane closest to you
+
+### How long should you signal before turning? 
+
+___
+At least 30 m in a 60 km/h zone. About 2 houses. Also at least 5 seconds 
+
+### What is wrong with the following picture ?
+
+![](./assets/wrong_signal.png)
+
+___
+Car A signal can be misleading
+
+### When should you use your headlights? 
+
+___
+- Between sunset and sunrise 
+- Poor visibility/tunnel
+
+### How should high-beam be positioned? 
+
+___
+Dipped to the road when there is an incoming car at 200 m away.
+
+### How should you respond when dazzled by high beam? 
+
+___
+Pull over until recovered 
+
+### What should you do when another vehicle is overtaking you? 
+
+___
+Maintain your speed 
+
+### If you want to overtake another driver who is driving at the speed limit, should you accelerate beyond the speed limit? 
+
+___
+No
+
+### What are the steps you should do to overtake another vehicle driving at the speed limit? 
+
+___
+You cannot accelerate beyond speed limit
+
+### What should be the gap between your car and a travelling bicycle on the road? 
+
+___
+- Up to 60 km/h - 1 m 
+- Above 60 km/h - 1.5 m
+
+### Can you pass the center line to pass bicycle? 
+
+___
+Yes when it is safe to do so 
+
+### What is the speed limit at shared zone? 
+
+___
+10 km/h
+
+### What is a safety zone? 
+
+___
+Area near a tram stop. Must slow down.
+
+### When can you overtake a stopped tram? 
+
+___
+- If there are no pedestrian on the road
+- Tram doors are closed 
+- Or tram employee signals to go through 
+- Must pass at speed 10 km/h 
+
+### Can you pass tram on the right? 
+
+___
+No unless tram track is at the far left 
+
+### You must treat buses travelling along tram track as a tram? 
+
+- [ ] True 
+- [ ] False 
+
+___
+True 
+
+### What do the broken yellow lines next to tram track represent? 
+
+![](./assets/broken_yellow_line_tram_track.png)
+
+___
+- It means tram has priority 
+- You may cross the broken line to turn, but must give way to tram 
+- If you want to turn right, must wait until the tram passes 
+- Do not pull out in front of the tram 
+- Do not delay the tram 
+
+### What is a tram lane? 
+
+___
+A single continuous yellow line near the tram track along the left side with a Tram Lane sign
+
+
+### What are full time tram lanes?
+
+___
+Tram lanes without time on Tram Lane sign
+
+### Are you allowed to travel in a full time tram lane? 
+
+![](./assets/full_time_tram_lane.png)
+
+___
+- No 
+- Can use over a short distance (50m) to overtake a bicycle, enter or leave the road, or to avoid turning vehicle
+
+### What are part time tram lanes? 
+
+___
+
+Tram lanes with time on Tram Lane sign
+
+### Are you allowed to travel in a part time tram lane? 
+
+![](./assets/full_time_tram_lane.png)
+
+___
+- Yes outside of the hour of operation
+- During operation, can use over a short distance (50m) to overtake a bicycle, enter or leave the road, or to avoid turning vehicle
+- Must not delay the tram even outside the hour of operation
+
+### What is a tramway? 
+
+___
+
+Double continuous yellow line near tram track
+
+
+### Can you drive in tramway? 
+
+![](./assets/tram_way.png)
+___
+
+Must not unless to avoid an obstacle - must be quick and not delay the tram
+
+### Can you travel in bus lane? 
+
+___
+- If bus lane has time indicator - outside the hours
+- May use briefly to enter or exit the road or to avoid obstacle
+
+### What does this sign say?
+
+![](./assets/bus_only_sign.png)
+
+___
+- This lane is bus only.
+- May not use unless for avoiding obstacle
+
+### What does this sign say? 
+
+![](./assets/give_way_to_bus.png)
+
+___
+Give way to bus pulling out from the kerb
+
+### How should you approach police and other emergency vehicles? 
+
+___
+- Slow down when approach stationary of slow moving emergency vehicle with flashing light
+- When pass, should not exceed 40 km/h
+
+### You are crossing an intersection at greenlight. A police car is approaching with siren on from the road facing red light. Who has right of way? 
+
+- [ ] You
+- [ ] The police 
+
+___
+The police.
+
+### How should you approach a horse? 
+
+___
+Slow down and leave space for unexpected movements by the horse 
+
+### What does this sign say? 
+
+![](./assets/give_way_to_stock.png)
+
+___
+Give way to stock animals 
+
+### What does this sign say?
+
+![](./assets/stock_crossing_ahead.png)
+
+___
+Stock animal crossing ahead. Must slow down the avoid collision and give way to crossing animals.
+
+### How should you park in a parking bay that is not marked?
+
+___
+Leave 1 m between you and the vehicles in front and behind 
+
+### What angle should you park your car? 
+
+![](./assets/agle_parking_sign.png)
+
+___
+
+45 degree
+
+### Can you reverse from a center of road parking? 
+
+___
+
+No 
+
+### How long can you park your car here? 
+
+![](./assets/P_parking.png)
+
+___
+
+No time limit 
+
+### How long can you park your car here? 
+
+![](./assets/1P_parking.png)
+
+___
+
+1 hour in the signed hours
+No limit outside the hours
+
+### What does this sign say? 
+
+![](./assets/no_parking_sign.png)
+
+___
+
+No parking 
+
+### What is the condition for no parking sign 
+
+___
+
+Allowed for 
+
+- 2 minutes 
+- < 3 m away from vehicle 
+- Picking up or dropping of people and goods 
+
+### When can you stop at a no parking sign? 
+
+- [ ] Stop but stay in the car 
+- [ ] Stop with hazard light on 
+- [ ] At most 2 minutes when you are 3 m away from the car to pick up or drop off people and goods 
+
+___
+
+C 
+
+### What does the sign say? 
+
+![](./assets/no_stopping_sign.png)
+
+___
+
+No stopping 
+
+### What do continuous yellow lines mean? Can you park next to a continuous yellow line? 
+
+___
+
+No parking
+
+### What does the sign say? 
+
+![](./assets/clear_way_sign.png)
+
+___ 
+
+Clear way 
+
+### What is the condition of the clear way sign? 
+
+___
+
+Cannot stop or park withint the alloted period 
+
+### What does this sign say? 
+
+![](./assets/loading_zone_sign.png)
+
+___
+
+For authorised:
+
+- Vehicles carrying goods - signed delivery and couriers 
+- Taxis
+
+### Can loading/unloading vehicles park near this sign? 
+
+![](./assets/loading_zone_sign.png)
+
+___
+
+No unless authorised by VicRoads
+
+### What does this sign say? 
+
+![](./assets/truck_zone_sign.png)
+
+___
+
+For vehicles that are >= 4.5 tonnes
+
+### What does this sign say? 
+
+![](./assets/bus_zone_sign.png)
+
+___
+
+For bus parking 
+
+
+### What does this sign say? 
+
+![](./assets/taxi_zone_sign.png)
+
+___
+
+For taxis parking 
+
+### What does this sign say? 
+
+![](./assets/permit_zone_sign.png)
+
+___
+
+For vehicles with permits given by council 
+
+### What does this sign say? 
+
+![](./assets/work_zone_sign.png)
+
+___
+
+For working vehicles near the site 
+
+### What does the sign say? 
+
+![](./assets/tow_away_sign.png)
+
+___
+Vehicles parked here will be towed in the alloted period
+
+### What does the sign say? 
+
+![](./assets/tow_away_sign_another.png)
+
+___
+Vehicles parked here will be towed in the alloted period
+
+### What is double parking? 
+
+___
+
+Parking in parallel to a car already parked at the kerb - illegal
+
+### Can you park within the intersection? 
+
+___
+No unless on the continuing road of a T section.
+
+### Can you park your car on the freeway? 
+
+___
+No
+
+### Can you park away from the road for less than 3 m of clearance? 
+
+___ 
+No
+
+### What is the minimum distance your car must be visible by when park in a curve outside build up area? 
+
+___ 
+100 m 
+
+### How far away from the intersection with traffic light must you park your car? 
+
+___ 
+20 m 
+
+### How far away from the intersection without traffic light must you park your car? 
+
+___ 
+
+10 m
+
+### How far away from Aus Post mail box or a fire hydrant must you park your car? 
+
+___
+
+3 m 
