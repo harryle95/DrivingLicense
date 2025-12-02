@@ -1253,3 +1253,80 @@ ___
 ___
 - B must give way.
 - Driving from painted island.
+
+### What must you do when entering freeway?
+
+___
+- Adjust your speed to freeway traffic
+- Clearly indicate your intention
+- Give way to traffic on freeway
+- Merge safely when there is a large gap
+
+### What should you do to exit the freeway? 
+
+___
+- Watch for signs that tell you the exit lane 
+- Maintain your speed and signal intention
+- Adjust speed once entering the exit ramp
+
+### What should you do if you miss the exit on freeway? 
+
+___ 
+Continue travelling until the next exit 
+
+### Can you reverse on freeway? 
+
+___
+No
+
+### Can you cross the median strip to U turn on a free way? 
+
+___
+No
+
+### Can you drive on the right lane on freeway? 
+
+___
+
+No stick to the left unless overtaking or unless all lanes are congested
+
+### Can you stop on the freeway? 
+
+___
+
+- No unless it is an emergency 
+- If you have to, use an emergenc stopping lane 
+- Put on hazard warning light
+
+### What should you do if your car breaks down in tunnel? 
+
+___
+- If possible drive outside of the tunnel.
+- If cannot exit - stop on left or right lane, not middle lane.
+- Switch on hazard light and radio
+- Remain in the vehicle
+
+### Can you stop in a tunnel if it is not an emergency? 
+
+___
+No
+
+### Can you reverse in a tunnel? 
+
+___
+No
+
+### Should you change lane in a tunnel? 
+
+___
+Legal but should avoid 
+
+### Should you turn on headlights in a tunnel? 
+
+___ 
+Yes 
+
+### Should you turn on radio in a tunnel? 
+
+___
+Yes
