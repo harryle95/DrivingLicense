@@ -995,5 +995,261 @@ Winding road ahead
 ___ 
 Worker ahead
 
+### Can you cross broken lines to enter or leave the road?
 
+![](./assets/broken_white_line.png)
 
+___
+Yes 
+
+### Can you overtake or do a U-turn on road with broken lines? 
+
+![](./assets/broken_white_line.png)
+
+___
+Only if it is safe and the road ahead is clear
+
+### Can you cross a single continuous white line to enter or leave the road?
+
+![](./assets/single_continuos_white_line.png)
+
+___
+Yes 
+
+### Can you overtake or do a U-turn on road with a single continuous white line? 
+
+![](./assets/single_continuos_white_line.png)
+
+___
+No 
+
+### When can you cross a single continuous white line? 
+
+![](./assets/single_continuos_white_line.png)
+
+___
+- Pass a bicycle 
+- Road ahead is clear 
+- Safe to do so
+
+### Can you cross a double continuous white line to enter or leave the road? 
+
+![](./assets/double_continuous_white_line.png)
+
+___ 
+No
+
+### Can you cross a double continuous white line to overtake a motor vehicle? 
+
+![](./assets/double_continuous_white_line.png)
+
+___ 
+No
+
+### When can you cross a double continuous white line? 
+
+![](./assets/double_continuous_white_line.png)
+
+___ 
+- Briefly to pass a bicycle 
+- Road ahead is clear
+- Safe to do so 
+
+### Can you cross a single continuous line to the left of a broken line to enter or leave the road? 
+
+![](./assets/two_white_line_continuous_near_you.png)
+
+___
+Yes 
+
+### Can you overtake or make a U-turn on a single continuous line to the left of a broken line to enter or leave the road? 
+
+![](./assets/two_white_line_continuous_near_you.png)
+
+___
+No
+
+### When can you cross a a single continuous line to the left of a broken line?
+
+![](./assets/two_white_line_continuous_near_you.png)
+
+___ 
+- Briefly to pass a bicycle 
+- Road ahead is clear
+- Safe to do so 
+
+### Can you cross a broken line to the left of a continuous line to enter or leave the road? 
+
+![](./assets/two_white_lines_broken_near_you.png)
+
+___
+Yes 
+
+### Can you overtake or make a U-turn on a a broken line to the left of a continuous to enter or leave the road? 
+
+![](./assets/two_white_lines_broken_near_you.png)
+
+___
+Yes but only when the road is clear and when it is safe to do so
+
+### When can you park on the same side of a road as a continuous white dividing line? 
+
+___
+Must give 3m of clearance
+
+### What does this traffic signal say? 
+
+![](./assets/tram_may_go.png)
+
+___
+- Tram may go 
+- You must wait 
+
+### What does this overhead lane signal say? 
+
+![](./assets/overhead_lane_signal_change_lane.png)
+
+___
+- Change lane if you are travelling on the lane with the change lane marking - lane is closed ahead
+
+### What does this overhead lane signal say? 
+
+![](./assets/overhead_lane_signal_red_cross.png)
+
+___
+Must not drive past the point on the lane with red cross 
+
+### When overhead lane signal is in use, what lanes should you travel in? 
+
+___
+- Speed limit sign 
+- Green or white arrow 
+
+### For road without marked lane, can you change from one line of traffic to another? 
+
+![](./assets/road_without_marked_lane.png)
+___
+- Yes 
+- Signal 
+- Safe to do so 
+
+### For road without marked lane, can you overtake a vehicle from the left? 
+
+![](./assets/road_without_marked_lane.png)
+
+___
+- Yes 
+- If that vehicle is turning right 
+- Or if that vehicle is stationary
+- Safe to do so 
+
+### What are special purpose lane? 
+
+___
+
+Bus lane, bicycle lane, tram lane, transite lane
+
+### Can car drive on special purpose lane? 
+
+___
+- If there are sign and marking - outside of the time marked on the sign 
+- If there are no sign - cannot enter at any time
+
+### When can cars drive on special purpose lane? 
+
+___
+- Briefly for 100 m (50 m for bicycle and tram lanes)
+- To enter or exit the road 
+- To avoid an obstruction or turning vehicle
+- Must give way before entering special purpose lane 
+
+### What is the maximum distance you can drive on bus lane or transit lane if not permitted (special purpose)?
+
+___
+100 m 
+
+### What is the maximum distance you can drive on tram or bicycle lane if not permitted (special purpose)? 
+
+___
+
+50 m 
+
+### Can you park on a bike lane? 
+
+___
+
+Yes unless prohibited by sign.
+
+### What are transit lanes? 
+
+![](./assets/transit_lane.png)
+
+___
+
+During time specified on the sign, transit lanes are for buses, taxis, trams and vehicles that carry more than 2 or 3 people.
+
+### When the arrow painted on the road points at 2 directions, where can you go? 
+
+___
+Either of the direction pointed by the arrow 
+
+### When the arrow on the road points at 1 direction, where can you go? 
+
+___
+Must follow the arrow 
+
+### What is a bicycle storage area? 
+
+![](./assets/bicycle_storage.png)
+___
+
+Designated area for bicycle at intersection to make them more visible 
+
+### Where must driver stop at intersetion on the road with bicycle storage area? 
+
+![](./assets/bicycle_storage.png)
+
+___ 
+
+- Stop at the first line 
+- Must not proceed until light changes 
+
+### What are painted traffic islands and what are their purposes? 
+
+___
+
+- Painted area before a right turn lane.
+- Drive over the painted islane to stop or wait on it, as long as there are no double lines outlining the island on the left. 
+- Driver from painted islands must give way to all traffic in a turning lane or entering the turning lane.
+
+### Who must give way and why? 
+
+![](./assets/painted_island_giveway_enter.png)
+
+___
+- B gives way 
+- Vehicles in painted islane must giveway to vehicles entering turning lane.
+
+### Who must give way and why? 
+
+![](./assets/give_way_situation.png)
+
+___
+- B gives way 
+- Give way sign
+
+### Who must give way and why? 
+
+![](./assets/stop_situation.png)
+
+___
+- B must stop and give way
+- Stop sign
+
+### Who must give way and why? 
+
+![](./assets/painted_island_giveway.png)
+
+___
+- B must give way.
+- Driving from painted island.
