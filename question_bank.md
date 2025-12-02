@@ -2236,3 +2236,127 @@ ___
 
 Both vehicles
 
+### What is a good way to test some of your driving performance when you are in a safe place?
+
+- [ ] Reverse in a straight line for an extended distance.
+- [ ] Accelerate as hard as possible around a corner.
+- [ ] Speed up, then brake suddenly.
+
+___
+
+Reverse in a straight line 
+
+### You are driving vehicle A. You must give way to
+
+![](./assets/give_way_situation_25.png)
+
+- [ ] B
+- [ ] C 
+- [ ] Both 
+- [ ] Neither 
+
+___
+
+Neither since both B and C face give way sign
+
+### You are driving vehicle A. You want to turn right at the intersection. Which lane must you turn from?
+
+![](./assets/situation_4.png)
+
+___
+
+Right lane 
+
+### You are in vehicle A. Two lanes merge without lane markings. Where should you merge to?
+
+
+![](./assets/give_way_situation_26.png)
+
+___
+
+Between B and C
+
+### What is the correct give way situation?
+
+
+![](./assets/give_way_situation_27.png)
+
+___
+
+- B > C > A.
+- B is right of C 
+- C is right of A
+
+### You want to drive on the tram tracks to turn right. A tram is in the tram lane next to you. What should you do?
+
+- [ ] Let the tram pass, then turn.
+- [ ] Move ahead quickly to pass the tram so you can turn.
+- [ ] Continue straight ahead, because you are not allowed to turn across the tram tracks.
+
+___
+
+A 
+
+### What is the correct give way situation? 
+
+![](./assets/give_way_situation_28.png)
+
+___
+
+- A > C > B
+- C is turning right so must give way to A 
+- B is facing STOP sign so must give way to C
+
+### You are driving vehicle A. There are no oncoming vehicles. Which diagram shows a situation where overtaking is allowed?
+
+
+![](./assets/situation_5.png)
+
+___
+
+Diagram III since in I and II you are facing solid white lines which prohibut overtaking.
+
+### What is the correct give way situation? 
+
+![](./assets/give_way_situation_29.png)
+
+___
+
+- Pedestrian > B > A
+- Both vehicles must give way to pedestrian at intersection.
+- B is turning left, A is turning right so B > A 
+
+### What is the correct give way situation? 
+
+![](./assets/give_way_situation_30.png)
+
+___
+
+- B > A
+- B is at the RHS of A in intersection with no lights
+
+### What is the correct give way situation? 
+
+![](./assets/give_way_situation_31.png)
+
+___
+
+- B = C > A
+- A is facing STOP sign so must give way to both B and C
+
+### What is the correct give way situation? 
+
+![](./assets/give_way_situation_32.png)
+
+___
+
+- A > B
+- A is going straight while B is turning right. B must give way to A.
+
+### A tram has stopped at a tram stop. All pedestrians have got off the tram and reached the kerb. The tram has closed its doors. How fast are you allowed to drive past the tram?
+
+![](./assets/situation_6.png)
+
+___
+
+10 km/h
