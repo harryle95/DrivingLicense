@@ -25,7 +25,7 @@ const Card = (props: CardProps) => {
       {showQuestion ? (
         <>
           <div className="font-semibold text-lg">{question.header}</div>
-          <div>
+          <div className="flex justify-center items-center p-4">
             <ReactMarkdown>{question.body}</ReactMarkdown>
           </div>
         </>
