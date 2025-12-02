@@ -1062,7 +1062,7 @@ ___
 ___
 Yes 
 
-### Can you overtake or make a U-turn on a single continuous line to the left of a broken line to enter or leave the road? 
+### Can you overtake or make a U-turn on a single continuous line to the left of a broken line? 
 
 ![](./assets/two_white_line_continuous_near_you.png)
 
@@ -1085,7 +1085,7 @@ ___
 ___
 Yes 
 
-### Can you overtake or make a U-turn on a a broken line to the left of a continuous to enter or leave the road? 
+### Can you overtake or make a U-turn on a a broken line to the left of a continuous? 
 
 ![](./assets/two_white_lines_broken_near_you.png)
 
@@ -1330,3 +1330,399 @@ Yes
 
 ___
 Yes
+
+### When must a car give way to pedestrian? 
+
+___
+- At pedestrian crossing 
+- At slip lane 
+- At intersection when turning left or right 
+- At children crossing 
+- On foot path - when a car enters a road from driveway or adjacent land 
+- In shared zone 
+- At stop or give way signs or lines not at intersections
+- When making U turn 
+- At tram stop
+
+### When making a U turn, who should you give way to? 
+
+___
+To all vehicles and pedestrians
+
+### When at stop or give way sign, who should you give way to? 
+
+___
+To all vehicles and pedestrians
+
+### When you enter the road from drive way or adjacent land, who should you give way to? 
+
+___
+To all vehicles and pedestrians 
+
+### Where should you stop before a stopped tram? 
+
+___
+- Stop at the rear of the tram to give way to pedestrians
+- Must not proceed while the doors are stil open 
+
+### Who should give way and why? 
+
+![](./assets/slip_lane.png)
+
+___
+- Car
+- Give way to pedestrian at slip lane
+
+### Who should give way and why? 
+
+![](./assets/give_way_situation_2.png)
+
+___
+- Car
+- Give way sign
+
+### Who should give way and why? 
+
+![](./assets/stop_situation_2.png)
+
+___
+- Car B
+- Stop sign
+
+### Who has right of way? 
+
+- [ ] Vehicle A turning left from slip lane 
+- [ ] Vehicle B going straight after waiting at stop sign
+
+___
+Vehicle B
+
+### Who has right of way? 
+
+- [ ] Vehicle A going straight after waiting at stop sign
+- [ ] Vehicle B turning right also facing a Stop or Give Way sign
+
+___
+Vehicle A 
+
+### Who has right of way? 
+
+- [ ] Vehicle A going straight after waiting at stop sign 
+- [ ] Vehicle B making a U turn
+
+___
+Vehicle A 
+
+### Who has right of way? 
+
+- [ ] Vehicle A facing a Give Way sign 
+- [ ] Vehicle B turning right 
+
+___
+Vehicle B
+
+### Who has right of way: 
+
+Intersection with no traffic light 
+
+- [ ] Car A turning right 
+- [ ] Car B going straight on the right hand of A 
+
+___
+Car B since A must give way to vehicle on its right
+
+### Who has right of way: 
+
+Intersection with no traffic light 
+
+- [ ] Car A going straight 
+- [ ] Car B going straight 
+
+A is on the right of B
+___
+Car A 
+
+### Who should give way and why? 
+
+![](./assets/give_way_situation_3.png)
+
+___
+- Car B
+- A is on RHS at no traffic light
+
+### Who should give way and why? 
+
+![](./assets/give_way_situation_4.png)
+
+___
+- Car B
+- A is on RHS at no traffic light
+
+### Who should give way and why? 
+
+![](./assets/give_way_situation_5.png)
+
+___
+- Car B
+- A is on RHS at no traffic light
+
+### Who should give way and why? 
+
+![](./assets/give_way_situation_6.png)
+
+___
+- Car B
+- A is on RHS at no traffic light
+
+### Who should give way and why? 
+
+![](./assets/give_way_situation_7.png)
+
+___
+- Car B
+- A is on RHS at no traffic light
+
+### Who should give way and why? 
+
+![](./assets/give_way_situation_8.png)
+
+___
+- Car B
+- A is on RHS at no traffic light
+
+### If you are turning right at an intersection without traffic light, who should you give way to? 
+
+___
+- Vehicles going straight 
+- Vehicles on your right
+- Vehicles turning left (except for vehicles turning left from slip lane)
+
+### Who has right of way? 
+
+Intersection without traffic light 
+
+A and B are on opposite roads such that they are turning onto the same lane
+
+- [ ] Vehicle A is turning right 
+- [ ] Vehicle B is turning left
+
+___
+Vehicle B since a vehicle turning right on a road without traffic light must give way to vehicle turning left 
+
+### Who has right of way? 
+
+Intersection without traffic light 
+
+A and B are on opposite roads such that they are turning onto the same lane
+
+- [ ] Vehicle A is turning right 
+- [ ] Vehicle B is turning left from slip lane
+
+___
+Vehicle A
+
+### What is a T intersection 
+
+___
+
+Where 2 roads meet and 1 ends 
+
+### What is the give way rule for vehicles at T intersections? 
+
+___ 
+
+Vehicles from ending road must give way to vehicles on continuing road.
+
+### Who should give way and why? 
+
+![](./assets/give_way_situation_9.png)
+
+___
+- Car B
+- A is on continuing road, B is from ending road to continuing road
+
+### Who should give way and why? 
+
+![](./assets/give_way_situation_10.png)
+
+___
+- Car B
+- A is on continuing road, B is from ending road to continuing road
+
+### Who should give way and why? 
+
+![](./assets/give_way_situation_11.png)
+
+___
+- Car B
+- A is on continuing road, B is from ending road to continuing road
+
+### Who should give way and why? 
+
+![](./assets/give_way_situation_12.png)
+
+___
+- Car B
+- A is on continuing road, B is from ending road to continuing road
+
+### Who should give way and why? 
+
+![](./assets/give_way_situation_13.png)
+
+___
+- Car B
+- A is on continuing road, B is from ending road to continuing road
+
+### Who should give way and why? 
+
+![](./assets/give_way_situation_14.png)
+
+___
+- Car B
+- Here continuing road is modified to be curved. Ending road is marked. 
+- Car A is on continuing road. Car B is entering ending road.
+
+### Who should you give way to in a roundabout? 
+
+___
+- Vehicles already in the roundabout 
+- All trams entering or approaching the roundabout 
+
+### Who should give way and why? 
+
+![](./assets/give_way_situation_15.png)
+
+___
+- Car B
+- B are entering the roundabout and must give way to A which are already in the roundabout
+
+### Who should give way and why? 
+
+![](./assets/give_way_situation_16.png)
+
+___
+- Car B
+- Give way sign
+
+### Who must you give way to when changing lane? 
+
+___
+Vehicles in the lane that you are changing to
+
+### What is a zip merge and who should give way? 
+
+___
+- Two lanes merged into one without road marking 
+- Vehicle with any part ahead
+
+### Who should give way and why? 
+
+![](./assets/give_way_situation_17.png)
+
+___
+- Car B
+- Zip merge and A is ahead
+
+### Who should give way and why? 
+
+![](./assets/give_way_situation_18.png)
+
+___ 
+- Car B 
+- Changing lane 
+
+### Does this situation count as zip merge and who should give way? 
+
+![](./assets/give_way_situation_18.png)
+
+___ 
+- Changing lane
+- Car B 
+
+### What lane should you use for going straight in a roundabout? 
+
+- [ ] Left
+- [ ] Right 
+
+___
+Left 
+
+### What lane should you use for going left in a roundabout? 
+
+- [ ] Left 
+- [ ] Right 
+
+___
+Left 
+
+### What lane should you use for going right or turn around in a roundabout? 
+
+- [ ] Left 
+- [ ] Right 
+
+___ 
+Right 
+
+### How long must you signal before turning? 
+
+___
+At least 5 seconds
+
+### What does this sign say? 
+
+![](./assets/hook_turn_sign.png)
+
+___
+Hook turn
+
+### Can bicycle make a hook turn? 
+
+___ 
+Yes unless prohibited by signs 
+
+### Can drivers make a hook turn from the right lane? 
+
+___
+
+No left lane only 
+
+### Describe the steps for performing a hook turn? 
+
+___
+- Start from the left lane 
+- Stay at the left most position of the road, positioned at the turning road. 
+- Let vehicles going straight pass 
+- Turn right when the light of the entering road turns green.
+
+### When should you not make a U turn 
+
+___
+- Over a single continuous white line 
+- Over double continuous white line 
+- When there is a no U turn sign
+- When there is a no right turn sign unless there is a U turn permitted sign 
+
+### How should you make a U turn when there is no median? 
+
+- [ ] Left
+- [ ] Right
+___
+From the left side of the road 
+
+### How should you make a U turn when there is a median? 
+
+- [ ] Left
+- [ ] Right
+___
+From the right side of the road 
+
+### When turning from a one way to a two way road, how should you position your car? 
+
+___
+
+Close to the lane you are turning to
+
+### When turning from a two way to a one way road, which lane should you take?
+
+___
+The lane cloest to you
