@@ -2360,3 +2360,13 @@ ___
 ___
 
 10 km/h
+
+### What is the correct give way situation?
+
+
+![](./assets/give_way_situation_33.png)
+
+___
+
+- B > A
+- Even though A is on B's right, A crosses B's path so A must give way.
